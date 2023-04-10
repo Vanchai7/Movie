@@ -2,23 +2,44 @@
 <html lang="en">
 <head>
 
-	<title>Royal Rumours E08</title>
+	<title>Royal Rumours E21</title>
 
 </head>
 <body>
 <div id="movie"></div>
 <script>
 movie = {
-    src: "http://bigf.bigo.sg/asia_live/V4s6/1Phjw2.mp4",
+    src: "http://bigf.bigo.sg/asia_live/V4s6/0NmckJ.mp4",
   	subtitles: [
         {
-            lang: "Khmer",
-            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1679214670/Royal.Rumours.E08.x264.720p.SachakHD-km.srt"
+            lang: "ខ្មែរ",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535760/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-km_xubodd.srt"
         },
         {
             lang: "English",
-            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1679215450/Royal.Rumours.E08.x264.SachakHD-eng.srt"
-        }
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535267/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-eng_ozxm2s.srt"
+        },
+        {
+            lang: "Indonesia",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535278/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-ind_qx0jxa.srt"
+        },
+        {
+            lang: "แบบไทย",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535280/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-tha_skvfar.srt"
+        },
+        {
+            lang: "Español",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535277/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-spa_ylcnfb.srt"
+        },
+        {
+            lang: "عربي",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535282/Drama/Royal.Rumours/Royal.Rumours.E21.x264.SachakHD-ara_l4bmfb.srt"
+        },
+        {
+            lang: "Việt Nam",
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1680535259/Drama/Royal.Rumours/Royal.Rumours.E20.x264.SachakHD-vie_d7lsd5.srt"
+        },
+       
     ]
 };
 </script>
@@ -113,7 +134,27 @@ const loadJwPlayer = () => {
                         {
                             label: movie.subtitles[1].lang,
                             file: movie.subtitles[1].src
-                        }
+                        },
+                        {
+                            label: movie.subtitles[2].lang,
+                            file: movie.subtitles[2].src
+                        },
+                        {
+                            label: movie.subtitles[3].lang,
+                            file: movie.subtitles[3].src
+                        },
+                        {
+                            label: movie.subtitles[4].lang,
+                            file: movie.subtitles[4].src
+                        },
+                        {
+                            label: movie.subtitles[5].lang,
+                            file: movie.subtitles[5].src
+                        },
+                        {
+                            label: movie.subtitles[6].lang,
+                            file: movie.subtitles[6].src
+                        },
                     ]
                 }]
             })

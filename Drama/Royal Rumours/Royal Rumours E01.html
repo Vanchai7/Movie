@@ -13,11 +13,11 @@ movie = {
   	subtitles: [
         {
             lang: "Khmer",
-            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1679925733/Royal.Rumours.E01.x264.SachakHD-km.srt"
+            src: "url-subtitles"
         },
         {
             lang: "English",
-            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1679925181/Royal.Rumours.E01.x264.SachakHD-eng.srt"
+            src: "https://res.cloudinary.com/dksa5dc8n/raw/upload/v1678989668/Royal.Rumours.E01.x264.SachakHD_-_eng.srt"
         }
     ]
 };
@@ -75,7 +75,7 @@ const vidElem = document.querySelector('#jw-player');
 const vidJw = jwplayer('jw-player');
 const movieElem = document.querySelector('#movie');
 const movieJw = jwplayer('movie');
-const logoImage = ``;
+const logoImage = `https://blogger.googleusercontent.com/img/a/AVvXsEi8-CM8WetqU03RRJ6xrgS0QLFC-wTw-aySaSAhSvYcapGHdqQfIhv9Bu9RIxhdG-gwZHoiaKyEYvPkMit4ThpvmSGlTxDvYdlNnh2nVyWBLyAVyL9YnLsUPbzT3AO6ushh0W-Rrp2RB1pvBoO-gv28jSSHkYdoTrpkbi8XFu6o8nGvQebYhQd9bMYhMg=s1600`;
 const createCustomLogo = () => {
     let logo = {
         file: logoImage,
@@ -83,7 +83,6 @@ const createCustomLogo = () => {
         margin: "20",
         position: "top-left",
         link: homePageUrl
-	
     }
     return logo;
 }
